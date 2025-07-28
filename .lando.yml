@@ -1,0 +1,9 @@
+name: aw-framework
+recipe: lemp
+config:
+  webroot: public
+  php: '8.1'
+  database: mysql
+services:
+  phpmyadmin:
+    type: phpmyadmin
